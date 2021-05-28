@@ -1,0 +1,163 @@
+body {
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color :#8B0000;
+  background-color: #505050;
+  /* background: url(C:\Users\DELL\Desktop\Trailer_App\moviespictures\cinema) no-repeat;
+  background-size:cover; */
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #282828;
+  border-radius : 8px;
+}
+
+.topnav button {
+  float: left;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 5px;
+}
+
+.topnav button:hover {
+  background-color:#808080 ;
+   color: #8B0000;
+}
+
+
+.search{
+  height: 35px;
+  float: right;
+  padding: 1px;
+  margin:16px;
+
+}
+#Sdurration{
+  margin: 20px;
+}
+ button {
+  border-radius: 4px;
+  background-color: #505050;
+  border: none;
+  color: #FFFFFF;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+form.myform input[type=text]{
+  display: inline-block;
+}
+
+#bttn {
+  padding: 2px 3px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 5px;
+}
+
+#bttn :hover {background-color: #3e8e41}
+
+#bttn :active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+form input [type=text]{
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+form input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+img{
+  width: 150px;
+    height: 220px;
+    margin: 10px;
+    margin-top: 15px
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(image/img\ 1.jpg) no-repeat;
+    background-size:cover;
+}
+.login-box{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.login-box h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: 3px solid rgb(15, 14, 13);
+    margin-bottom: 50px;
+    padding: 13px 0;
+  }
+
+.textbox{
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid rgb(15, 14, 13);  
+}
+.btn1 :hover{
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0,2);
+    width: 100%;
+}
+
+.btn2 :hover{
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0,2);
+    width: 100%;
+}
+
