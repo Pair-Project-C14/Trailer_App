@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+</head>
+
+<body>
+
+    <div class="topnav">
+        <div>
+            <form class="myform">
+                <fieldset>
+                    <legend>What's Your New Trailer have as :</legend>
+                    <label for="title">Title :</label>
+                    <input type="text" id="title" placeholder="write here ..."><br><br>
+                    <label for="actor">Actors :</label>
+                    <input type="text" name="autour" id="actor" placeholder="write here ..."><br><br>
+                    <label for="director">Director :</label>
+                    <input type="text" id="director" placeholder="write here ..."><br><br>
+                    <label for="genre">genre :</label>
+                    <input type="text" id="genre" placeholder="write here ..."><br><br>
+                    <label for="durration">Durration :</label>
+                    <input type="text" id="durration" placeholder="write here ..."><br><br>
+                    <label for="link">Trailer link :</label>
+                    <input type="text" id="link" placeholder="image for the Movie"><br><br>
+                    <label for="image">Image:</label>
+                    <input type="text" id="image" placeholder="image for the Movie"><br><br>
+                </fieldset>
+                <input type="submit" value="submit" id="bttn">
+            </form>
+        </div>
+
+        <label for="Durration">By Durration</label>
+        <select id="Sdurration">
+            <option value="1hour or less">1 hour or less</option>
+            <option value="1 hour">1 hour</option>
+            <option value="1 hour or more">1 hour or more</option>
+            <option value="2 hours or more">2 hours or more</option>
+        </select>
+        <label for="gendre">By genre</label>
+        <select id="Sgenre">
+            <option value="Action">Action</option>
+            <option value="Drama">Drama</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Sience-Fiction">Sience-Fiction</option>
+            <option value="Superhero">Superhero</option>
+            <option value="Romantic">Romantic</option>
+            <option value="Biography">Biography</option>
+        </select>
+
+        <div class="search">
+            <input class="Search-txt" type="text" placeholder="Search here ...">
+            <a class="Search-btn" href="#">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+    </div>
+
+
+    <div id="mycards">
+
+    </div>
+
+
+
+
+
+
+    <script src="Trailer-App.js"></script>
+</body>
+
+</html>
