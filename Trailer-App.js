@@ -22,6 +22,6 @@ $('#idsignup').click(function () {
     localStorage.setItem(key, value)
     $('#idpassword').val("");
     $('#idname').val("");
-    alert("signed up secc")
+    alert("signed up successfully")
 })
 
