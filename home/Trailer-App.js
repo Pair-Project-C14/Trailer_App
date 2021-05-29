@@ -231,7 +231,7 @@ function createCards(trailer) {
 
   var links = document.createElement("a");
   links.href = trailer.link;
-  links.innerHTML = "<a>watch the trailer</a>";
+  links.innerHTML = "watch the trailer";
   document.getElementById("card").appendChild(links);
 
   var delet = document.createElement("button");
