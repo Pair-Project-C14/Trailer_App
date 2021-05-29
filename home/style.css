@@ -1,12 +1,12 @@
-body {
+/* body {
   margin: 5px;
   font-family: Arial, Helvetica, sans-serif;
   color :#8B0000;
   background-color: #505050;
   /* background: url(C:\Users\DELL\Desktop\Trailer_App\moviespictures\cinema) no-repeat;
   background-size:cover; */
-}
-
+/* } */ 
+/* 
 .topnav {
   overflow: hidden;
   background-color: #282828;
@@ -121,13 +121,7 @@ img{
 
 
 
-body{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    background: url(image/img\ 1.jpg) no-repeat;
-    background-size:cover;
-}
+
 .login-box{
     width: 280px;
     position: absolute;
@@ -159,5 +153,151 @@ body{
     border-radius: 5px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0,2);
     width: 100%;
+} */
+
+body {
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color :#8B0000;
+  background-color: #505050;
 }
 
+.topnav {
+  overflow: hidden;
+  background-color: #282828;
+  border-radius : 8px;
+}
+
+.topnav button {
+  float: left;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 5px;
+}
+
+.topnav button:hover {
+  background-color:#808080 ;
+   color: #8B0000;
+}
+
+
+.search{
+  height: 35px;
+  float: right;
+  padding: 1px;
+  margin:16px;
+
+}
+#Sdurration{
+  margin: 15px;
+  
+}
+ button {
+  border-radius: 4px;
+  background-color: #505050;
+  border: none;
+  color: #FFFFFF;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+form.myform input[type=text]{
+  display: inline-block;
+}
+
+#bttn {
+  padding: 2px 3px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 5px;
+}
+
+#bttn :hover {background-color: #3e8e41}
+
+#bttn :active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+img{
+    width: 150px;
+    height: 220px;
+    margin: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+#card :hover{
+  box-shadow: 0 10px 15px 0 rgb(211,211,211);
+  transition: 0.3s;
+}
+
+#remove {
+  position: absolute;
+  z-index: 1000;
+    margin: 5px;
+}
+
+.labels{
+  float: left;
+  color: white;
+}
+.inputs{
+  float: right;
+  width: 50%;
+}
+
+#legend{
+  color: white;
+}
+label {
+  color: white;
+}
+#search-item{
+  color: white;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(image/img\ 1.jpg) no-repeat;
+  background-size:cover;
+}
